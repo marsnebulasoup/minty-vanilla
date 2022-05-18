@@ -1,0 +1,14 @@
+*
+
+!*/
+node_modules/
+!.gitignore
+!Gemfile
+!Gemfile.lock
+!*.md
+!*.js
+!*.json
+!*.html
+!*.css
+!*.yml
+!*.scss
