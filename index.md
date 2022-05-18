@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "Happy Jekylling!"
----
+title: "Page Title"
 
-## You're ready to go!
-
-Start developing your Jekyll website.
+# Can use markdown formatting here, but note that headers (#) will mess up the structure, and they will not be styled.
+landing_title: "Landing Title"
+landing_subtitle: "...a landing subtitle which is kind of long and may fill up too much space, but it won't."
+--- 

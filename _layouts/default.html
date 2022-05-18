@@ -5,16 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
   <title>
-    {{ page.title }} -
     {{ site.title }}
   </title>
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
 </head>
 
-<body>
-  <div class="prose prose-yellow prose-sm">
-    {{ content }}
-  </div>
+<body class="bg-mint">
+  {% include pages/landing.html title=page.landing_title subtitle=page.landing_subtitle %}  
 </body>
 
 </html>
