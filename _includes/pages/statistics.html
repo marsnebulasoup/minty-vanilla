@@ -1,9 +1,9 @@
-<div id="statistics" class="h-screen py-4 mx-8 sm:mx-16 md:mx-32 lg:mx-52 xl:mx-72 2xl:mx-96">
+<div id="statistics" class="h-fit py-4 mx-8 sm:mx-16 md:mx-32 lg:mx-52 xl:mx-72 2xl:mx-96">
   <div class="flex flex-col sm:flex-row sm:items-center justify-between h-fit">
     {% include components/page-title.html title=include.title %}
     <div class="font-extrabold text-3xl py-4 sm:py-0">
       {{ include.year | markdownify }}
-    </div class="text-2xl">
+    </div>
   </div>
   <div class="font-medium text-slate-400 text-2xl sm:text-3xl py-10">
     {{ include.header | markdownify }}
