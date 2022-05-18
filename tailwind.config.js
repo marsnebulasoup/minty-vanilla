@@ -11,5 +11,11 @@ module.exports = {
       }
     },
   },
+  variants: {
+    extend: {
+      alignSelf: ["odd"],
+      textAlign: ["odd"]
+    }
+  },
   plugins: [],
 }
