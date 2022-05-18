@@ -15,3 +15,4 @@ _site/
 !*.css
 !*.yml
 !*.scss
+!*.svg
