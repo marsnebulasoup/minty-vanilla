@@ -3,7 +3,6 @@ baseurl: "" # the subpath of your site, e.g. /blog
 title: "" # the name of your site, e.g. ACME Corp.
 
 sass:
-  sass_dir: _sass/
   load_paths:
     - node_modules/
 
