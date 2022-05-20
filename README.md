@@ -23,6 +23,9 @@
     ```
     ...and you should be good to go.
 
+## Screenshots
+
+![screenshots](./sample-ss.png)
 
 ## About
 Theme built by [**@marsnebulasoup**](https://github.com/marsnebulasoup).
