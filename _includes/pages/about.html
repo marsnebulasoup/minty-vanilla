@@ -1,0 +1,29 @@
+<div id="about" class="h-fit py-24 mx-8 sm:mx-16 2xl:mx-0">
+  <div class="flex flex-col h-fit">
+    {% include components/page-title.html title=include.title %}
+  </div>
+
+  <div class="font-medium text-slate-500 text-2xl sm:text-3xl py-10">
+    {{ include.details | newline_to_br | markdownify }}
+  </div>
+  <div>
+    <div class="text-2xl sm:text-3xl font-extrabold mb-6">Built by</div>
+    <div class="flex flex-wrap justify-evenly md:justify-start flex-col sm:flex-row gap-6">
+      {% for person in include.people %}
+      <a href="{{ person.link }}" class="no-underline hover:scale-110 hover:font-black transition-all">
+        <div class="p-6 bg-dark-mint text-gray-900 rounded-2xl">
+          <div class="text-xl sm:text-2xl font-bold">
+            {{ person.name | newline_to_br | markdownify }}
+          </div>
+
+          <div class="text-gray-800 font-medium">
+            {{ person.profile | newline_to_br | markdownify }}
+          </div>
+
+        </div>
+      </a>
+
+      {% endfor %}
+    </div>
+  </div>
+</div>
