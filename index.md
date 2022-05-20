@@ -22,4 +22,24 @@ statistics:
     subtitle: Stat subtitle 5
     
     
+process_title: "Process Title"
+process_header: "...in this page you can add steps to show a process or flow."
+process_steps:
+  - count: 1
+    title: Step 1 title
+    subtitle: |
+      By the way, you can use markdown here.
+  - count: 2
+    title: Step 2 title
+    subtitle: |
+      # However, headers like this will not be styled.
+  - count: 3
+    title: Step 3 title
+    subtitle: |
+      But **bold** and *italics* will be.
+  - count: 4
+    title: Step 4 title
+    subtitle: |
+      You can also add links/images: [click me](https://www.youtube.com/watch?v=dQw4w9WgXcQ).
+     
 --- 

@@ -14,8 +14,21 @@ module.exports = {
   variants: {
     extend: {
       alignSelf: ["odd"],
-      textAlign: ["odd"]
+      textAlign: ["odd"],
+      flexWrap: ["odd"],
+      display: ["last"]
     }
   },
+  safelist: [
+    'flex-row-reverse',
+    'rounded-r-full',
+    'rounded-l-full',
+    'rounded-l-3xl',
+    'rounded-r-3xl',
+    'pr-6',
+    'pl-0',
+    'pl-6',
+    'pr-0',
+  ],
   plugins: [],
 }

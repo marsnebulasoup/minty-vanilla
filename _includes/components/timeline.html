@@ -1,0 +1,36 @@
+<div class="mx-auto max-w-4xl h-full">
+  <div class="flex flex-col justify-center h-full">
+    {% for step in include.steps %}
+    {% assign isOdd = step.count | modulo:2 %}
+    <!-- the classes in if statements have to be added to the safelist in tailwind.config.js as Jekyll will render them after tailwind processes the files -->
+    
+    <!-- this is a single step element -->
+    <div class="flex justify-center items-center w-full {% if isOdd == 1 %}flex-row-reverse{% endif %}">
+      <div class="order-1 w-5/12 hidden sm:flex"></div>
+      <div class="z-20 flex self-stretch items-center order-1 bg-dark-mint w-fit                       
+                      rounded-{% if isOdd == 1 %}r{% else %}l{% endif %}-full">
+        <div class="mx-auto font-semibold text-5xl text-mint sm:pl-8 sm:pr-8
+                    {% if isOdd == 1 %}pr-6 pl-0{% else %}pr-0 pl-6{% endif %}">
+          {{ step.count }}
+        </div>
+      </div>
+      <div class="order-1 bg-dark-mint shadow-2xl w-full sm:w-5/12 p-8 lg:p-12
+                      rounded-{% if isOdd == 1 %}l{% else %}r{% endif %}-3xl">
+        <div class="mb-3 font-bold text-2xl lg:text-3xl text-gray-900">
+          {{ step.title | newline_to_br | markdownify }}
+        </div>
+        <div class="text-lg lg:text-xl xl:text-2xl text-gray-800 leading-snug">
+          {{ step.subtitle | newline_to_br | markdownify }}
+        </div>
+      </div>
+    </div>
+    
+    <!-- this is the line between elements -->
+    <div class="justify-center items-center w-full last:hidden flex">
+      <div class="order-1 w-5/12"></div>
+      <div class="order-1 h-32 bg-dark-mint border border-dark-mint shadow-2xl"></div>
+      <div class="order-1 w-5/12"></div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
