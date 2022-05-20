@@ -15,7 +15,6 @@ module.exports = {
     extend: {
       alignSelf: ["odd"],
       textAlign: ["odd"],
-      flexWrap: ["odd"],
       display: ["last"]
     }
   },
