@@ -2,7 +2,7 @@
   <div class="flex flex-col text-right h-fit">
     {% include components/page-title.html title=include.title %}
     <div class="font-medium text-slate-400 text-2xl sm:text-3xl py-10">
-      {{ include.header | markdownify }}
+      {{ include.header | newline_to_br | markdownify }}
     </div>
   </div>
   
