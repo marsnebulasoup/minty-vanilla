@@ -1,3 +1,5 @@
+const plugin = require("tailwindcss/plugin")
+
 module.exports = {
   content: [
     "_layouts/**/*.html",
@@ -29,5 +31,14 @@ module.exports = {
     'pl-6',
     'pr-0',
   ],
-  plugins: [],
+  plugins: [
+    plugin(function ({ addBase, theme }) {
+      addBase({
+        'a': {
+          'color': 'blue',
+          'text-decoration': 'underline'
+        },
+      })
+    })
+  ],
 }
