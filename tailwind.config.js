@@ -1,4 +1,5 @@
 const plugin = require("tailwindcss/plugin")
+const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
   content: [
@@ -10,6 +11,9 @@ module.exports = {
       colors: {
         "mint": "#E6FFFA",
         "dark-mint": "#77B9A7"
+      },
+      fontFamily: {
+        'sans': ['Urbanist', ...defaultTheme.fontFamily.sans],
       }
     },
   },
