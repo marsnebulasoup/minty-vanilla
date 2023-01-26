@@ -1,6 +1,8 @@
 # minty-vanilla
 ### *A Jekyll theme built with Tailwind CSS*.
 
+Scroll down for screenshots!
+
 ## Setup
 1. Make sure you have [Ruby](https://www.ruby-lang.org/) and [node.js](https://nodejs.org) installed.
 
