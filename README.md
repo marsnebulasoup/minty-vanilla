@@ -1,6 +1,8 @@
 # minty-vanilla
 ### *A Jekyll theme built with Tailwind CSS*.
 
+[Check out a demo...](https://minty-vanilla.pages.dev)
+
 Scroll down for screenshots!
 
 ## Setup
