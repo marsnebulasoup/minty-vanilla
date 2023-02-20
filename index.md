@@ -1,6 +1,7 @@
 ---
 layout: default
-title: "Page Title"
+title: "Minty Vanilla"
+meta: "A simple, minimal, Jekyll theme, built with Tailwind CSS."
 
 # Can use markdown formatting here, but note that headers (#) will mess up the structure, and they will not be styled.
 landing_title: "Saturn V"
@@ -84,30 +85,30 @@ about_details: |
 about_people:
   - name: "Wernher von Braun"
     profile: "Designer"
-    link: ""
+    link: "#"
   - name: "Lee Solid"
     profile: "Rocketdyne"
-    link: ""
+    link: "#"
   - name: "Paul Castenholz"
     profile: "Rocketdyne"
-    link: ""
+    link: "#"
   - name: "Art Reiners"
     profile: "North American Aviation"
-    link: ""
+    link: "#"
   - name: "Jim Noblitt"
     profile: "Boeing"
-    link: ""
+    link: "#"
   - name: "Jere Dailey"
     profile: "Boeing"
-    link: ""
+    link: "#"
   - name: "Myron Pessin"
     profile: "Michoud"
-    link: ""
+    link: "#"
   - name: "James Mizell"
     profile: "Engineer and Manager @ Kennedy"
-    link: ""
+    link: "#"
   - name: "..and thousands more"
     profile: "contributed to this project"
-    link: ""
+    link: "#"
     
 --- 
